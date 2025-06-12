@@ -1,0 +1,108 @@
+    1  clear
+    2  sudo apt-get update
+    3  clear
+    4  ls
+    5  mkdir lunix-practice
+    6  ls
+    7  cd lunix-practice/
+    8  clear
+    9  cd 
+   10  whoami
+   11  clear
+   12  whoami
+   13  list user
+   14  clear
+   15  whoami
+   16  who
+   17  useradd -m devops_user
+   18  sudo useradd -m devops_user
+   19  who
+   20  cat etc/passwd
+   21  cat /etc/passwd
+   22  clear
+   23  su devops_user 
+   24  sudo passwd devops_user 
+   25  sudo su devops_user 
+   26  clear
+   27  ls -l
+   28  whoami
+   29  id ubuntu 
+   30  cat /etc/passwd
+   31  su devops_user
+   32  id ubuntu
+   33  groupadd devops
+   34  sudo groupadd devops
+   35  cat /etc/groups
+   36  cat /etc/group
+   37  clear
+   38  grouppasswd devops_user devops
+   39  grppasswd devops_user devops
+   40  gpasswd -a devops_user devops
+   41  sudo gpasswd -a devops_user devops
+   42  groups devops
+   43  groups devops_user
+   44  sudo gpasswd -a ubuntu sudo
+   45  groups ubuntu
+   46  clear
+   47  cat /etc/passwd
+   48  clear
+   49  cat /etc/groups
+   50  cat /etc/group
+   51  clear
+   52  id ubuntu
+   53  id devops_user
+   54  clear
+   55  mkdir devops_workspace
+   56  ls
+   57  cd devops_workspace/
+   58  vim project_notes.txt
+   59  cat project_notes.txt 
+   60  cd 
+   61  chmod 240 devops_workspace/
+   62  ls -l
+   63  chmod 640 devops_workspace/
+   64  ls -l
+   65  clear
+   66  ping google.com > ping_test.log &
+   67  ps aux
+   68  clear
+   69  ps aux | grep ping
+   70  ps -p 2075 -o pid,cmd,%cpu,%mem
+   71  ps -p 2075
+   72  kill 2075
+   73  ps -p 2075
+   74  clear
+   75  wget https://github.com/logpai/loghub/blob/master/Linux/Linux_2k.log
+   76  ls
+   77  clear
+   78  ls
+   79  grep -i 'Error' Linux_2k.log 
+   80  clear
+   81  grep -i 'Error' Linux_2k.log 
+   82  clear
+   83  grep -ic 'Error' Linux_2k.log 
+   84  cat Linux_2k.log 
+   85  clear
+   86  ls
+   87  wget https://raw.githubusercontent.com/logpai/loghub/refs/heads/master/Linux/Linux_2k.log
+   88  ls
+   89  rm Linux_2k.log Linux_2k.log.1
+   90  ls
+   91  clear
+   92  wget https://raw.githubusercontent.com/logpai/loghub/refs/heads/master/Linux/Linux_2k.log
+   93  ls
+   94  cat Linux_2k.log 
+   95  clear
+   96  grep -i 'Error' Linux_2k.log 
+   97  awk 'print{$1,$2,$3}' Linux_2k.log 
+   98  awk '{print $1,$2,$3}' Linux_2k.log 
+   99  sort Linux_2k.log | uniq -c | sort -nr | head -10
+  100  clear
+  101  grep -ic 'Error' Linux_2k.log 
+  102  git clone https://github.com/Darshanbreddy/Linux-practice.git
+  103  ls
+  104  cd Linux-practice/
+  105  ls
+  106  pwd
+  107  cp ~/.bash_history /home/ubuntu/Linux-practice/
+  108  history > /home/ubuntu/Linux-practice/my_session_history.txt
