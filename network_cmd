@@ -1,0 +1,20 @@
+ping → Sends packets to check if a host is reachable and measures response time.
+netstat → Displays network connections, routing tables, and interface statistics.
+ifconfig → Shows or configures network interfaces (older tool, replaced by ip command).
+traceroute → Traces the path packets take to reach a network destination.
+tracepath → Similar to traceroute, traces network path but works without needing root.
+mtr → Combines ping and traceroute to show real-time network route and packet loss.
+nslookup → Queries DNS to resolve domain names into IP addresses.
+telnet → Connects to remote systems on a specific port, often used for testing services.
+hostname → Displays or sets the system’s network name.
+ip → Configures and displays networking, routing, and interfaces (modern replacement for ifconfig).
+iwconfig → Displays or configures wireless network interfaces.
+arp → Shows or modifies the Address Resolution Protocol (ARP) table mapping IPs to MAC addresses.
+dig → Performs DNS lookups and provides detailed query results.
+whois → Retrieves domain ownership and registration information from WHOIS databases.
+ifplugstatus → Checks whether a network cable is plugged into a network interface.
+route → Displays or modifies the IP routing table.
+nmap → Scans networks for hosts, open ports, and services.
+wget → Downloads files from the web via HTTP, HTTPS, or FTP.
+watch → Runs a command repeatedly at intervals, showing output changes over time.
+curl → Transfers data to or from servers using URLs, supporting many protocols like HTTP, FTP, etc.
