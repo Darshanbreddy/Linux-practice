@@ -1,0 +1,19 @@
+uname → Displays system information like the kernel name or OS.
+uptime → Shows how long the system has been running and load averages.
+date → Displays or sets the system date and time.
+who → Lists users currently logged into the system.
+whoami → Prints the username of the current user.
+id → Shows user and group IDs for the current or specified user.
+sudo → Runs commands with superuser (root) privileges.
+shutdown → Powers off or halts the system safely.
+reboot → Restarts the system.
+apt → Manages packages on Debian-based systems (install, update, remove).
+useradd → Creates a new user account.
+passwd → Sets or changes a user’s password.
+userdel → Deletes a user account from the system.
+groupadd → Creates a new group.
+groupdel → Deletes an existing group.
+umask → Sets default permission bits for new files and directories.
+chmod → Changes file or directory permissions.
+chgrp → Changes the group ownership of a file or directory.
+chown → Changes the owner and/or group of a file or directory.
