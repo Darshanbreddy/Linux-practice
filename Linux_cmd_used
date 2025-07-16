@@ -1,24 +1,24 @@
-ls → Lists files and directories in the current location.
-cd → Changes the current working directory.
-pwd → Prints the full path of the current working directory.
-mkdir → Creates a new directory.
-rm → Deletes files or directories.
-rmdir → Removes empty directories.
-cat → Displays the contents of a file.
-touch → Creates an empty file or updates file timestamps.
-head → Shows the first few lines of a file.
-tail → Shows the last few lines of a file.
-cp → Copies files or directories.
-mv → Moves or renames files and directories.
-wc → Counts lines, words, and characters in a file.
-ln -s → Creates a symbolic (soft) link to a file or directory.
-ln → Creates a hard link to a file.
-ssh → Connects securely to a remote machine over the network.
-df -h → Shows disk space usage in human-readable format.
-du → Displays disk usage of files and directories.
-free → Shows memory and swap usage on the system.
-cut → Extracts specific columns or fields from text.
-tee → Reads input and writes it to a file and the screen at the same time.
-diff → Compares two files line by line to show differences.
-nohup → Runs a command immune to hangups, keeping it running after logout.
+ls → Lists files and directories in the current location
+cd → Changes the current working directory
+pwd → Prints the full path of the current working directory
+mkdir → Creates a new directory
+rm → Deletes files or directories
+rmdir → Removes empty directories
+cat → Displays the contents of a file
+touch → Creates an empty file or updates file timestamps
+head → Shows the first few lines of a file
+tail → Shows the last few lines of a file
+cp → Copies files or directories
+mv → Moves or renames files and directories
+wc → Counts lines, words, and characters in a file
+ln -s → Creates a symbolic (soft) link to a file or directory
+ln → Creates a hard link to a file
+ssh → Connects securely to a remote machine over the network
+df -h → Shows disk space usage in human-readable format
+du → Displays disk usage of files and directories
+free → Shows memory and swap usage on the system
+cut → Extracts specific columns or fields from text
+tee → Reads input and writes it to a file and the screen at the same time
+diff → Compares two files line by line to show differences
+nohup → Runs a command immune to hangups, keeping it running after logout
 kill → Sends signals to terminate or control processes
